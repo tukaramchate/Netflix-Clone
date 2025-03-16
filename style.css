@@ -1,0 +1,161 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("sourcefiles/img/bg.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 70vh;
+    position: relative;
+}
+
+.navbar {
+    max-width: 60vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 62px;
+}
+
+.box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.44;
+    position: absolute;
+    top: 0%;
+    background-color: black;
+}
+
+nav img {
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    color: white;
+    height: 392px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    font-family: "Segoe UI";
+    gap: 23px;
+    padding: 0 23px;
+
+}
+
+.b {
+    font-size: 45px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.a {
+    font-size: 20px;
+    font-weight: 400px;
+    text-align: center;
+}
+
+.sep {
+    height: 7px;
+    background-color: rgb(46, 42, 42);
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: white;
+
+}
+
+.sm1 {
+    background-color: red;
+    color: white;
+    padding: 3px 20px;
+    font-size: 20px;
+    border-radius: 4px;
+    border: solid red;
+
+}
+
+.main input {
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    border: solid white;
+    background-color: rgba(23, 23, 23, 0.5);
+}
+
+.lang {
+    background-color: transparent;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    border: solid white;
+    color: white;
+    font-weight: bold;
+}
+
+#sel {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 19px;
+}
+
+.opt {
+    color: black;
+}
+
+.sm2 {
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    border: solid red;
+}
+
+/* section */
+
+.first{
+    display: flex;
+    color: white;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    position: relative;
+    align-items: center;
+}
+.sec-con{
+    position: relative;
+}
+.img{
+    /* width: 32vw; */
+    position: relative;
+    z-index: 10;
+
+}
+.video{
+    position: absolute;
+    top: 51px;
+    right: 0;
+}
+
+
